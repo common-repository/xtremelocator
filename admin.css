@@ -1,0 +1,21 @@
+.xl_menu_item{
+	display: block;
+	height: 90px;
+	width: 90px;
+	border: 1px solid #CCC;
+	align: center;
+	text-align: center;
+	vertical-align: middle;
+	padding: 5px;
+	float:left;
+	margin-right: 5px;
+}
+.xl_menu_item:hover{
+	border: 1px solid #999;
+}
+.xl_styles_layout div{
+	float:left;	
+}
+#wpbody-content{
+	overflow: visible!important;
+}

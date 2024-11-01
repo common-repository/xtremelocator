@@ -1,0 +1,274 @@
+
+.xl_result {
+    width: 100%;
+    display: flex;
+
+
+}
+
+.xl_result_item {
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+
+.xl_result_item_map {
+    width: 50%;
+    height: 500px;
+    padding-top: 0px;
+    overflow: hidden;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+
+.xl_result_table {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#xl_search_form {
+
+}
+
+#xl_search_form label {
+    display: inline;
+    width: 150px;
+    float: left;
+}
+
+#xl_form_message {
+    background-color: #E6E6E6;
+    padding: 5px;
+    border: 1px solid #CCCCCC;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.xl_wraper {
+    margin-bottom: 5px;
+}
+
+#xl_advanced_search_link {
+    padding: 5px;
+}
+
+#xl_all_locations_link {
+    padding: 5px;
+}
+
+#xl_powered_link {
+    padding: 5px;
+}
+
+.xl_results_title {
+    float: left;
+    width: 150px;
+}
+
+.xl_results_value {
+    float: left;
+}
+
+#xl_search_results {
+
+}
+
+#xl_search_locations {
+
+}
+
+#xl_search_footer {
+    padding: 5px;
+    background-color: #E1E1E1;
+    border: 1px solid #CCCCCC;
+    margin-top: 10px;
+    text-align: center;
+    clear: both;
+}
+
+#xl_search_back {
+    margin-top: 10px;
+}
+
+.xl_result_columns2 {
+    float: left;
+    width: 400px;
+}
+
+.xl_result_location {
+    padding: 5px;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    margin-top: 15px;
+    float: left;
+    width: 100% !important;
+}
+
+.xl_result_location_map {
+    padding: 5px;
+    background-color: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    margin: 10px;
+    float: left;
+    width: 50% !important;
+
+
+}
+
+.xl_clear {
+    clear: both;
+}
+
+.map_it {
+    float: left;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.map_it img {
+    padding-left: 20px;
+}
+
+.zoom_it {
+    float: left;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-right-color: #999999;
+    border-bottom-color: #999999;
+    border-left-color: #999999;
+    margin-left: 7px;
+}
+
+/* Module styles */
+
+#xl_mod_search_form {
+}
+
+#xl_mod_search_form label {
+    display: inline;
+    width: 100px;
+    float: left;
+}
+
+#xl_Name_value, #xl_Name_value a {
+    font-weight: bold !important;
+}
+
+#xl_pub_widget_form div {
+    margin: 5px;
+}
+
+#xl_pub_widget_zip_label, #xl_pub_search_country_label, xl_pub_search_distance_label {
+    width: 70px;
+    display: block;
+    clear: both;
+    float: left;
+    margin-bottom: 10px;
+}
+
+#xl_pub_widget_zip, #xl_pub_search_country, xl_pub_search_distance {
+
+}
+
+#xl_pub_search_submit {
+    clear: both;
+}
+
+.xl_mod_search_form_wrap {
+}
+
+#xl_mod_search_zip_label {
+}
+
+#xl_mod_search_zip {
+}
+
+#xl_mod_search_country_label {
+}
+
+#xl_mod_search_country {
+}
+
+#xl_search_distance_label {
+}
+
+#xl_mod_search_distance {
+}
+
+#xl_mod_advanced_search_link {
+}
+
+#xl_mod_all_locations_link {
+}
+
+#xl_mod_advanced_form_code {
+}
+
+
+@media only screen and (max-width: 1230px) and (min-width: 990px) {
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .xl_result {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .xl_result_location_map {
+        width: 100% !important
+    }
+
+    .xl_result_item_map {
+        width: 100% !important
+    }
+
+    .xl_result_location {
+        width: 60% !important;
+    }
+
+    .map_it {
+        width: 30% !important;
+        margin-top: 30px !important;
+        margin-left: 20px !important;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+    .xl_result {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
+    }
+
+    .xl_result_location_map {
+        width: 100% !important
+    }
+
+    .xl_result_item_map {
+        width: 100% !important
+    }
+
+    .xl_result_location {
+        width: 60% !important;
+    }
+
+    .map_it {
+        width: 30% !important;
+        margin-top: 30px !important;
+        margin-left: 20px !important;
+    }
+
+}
